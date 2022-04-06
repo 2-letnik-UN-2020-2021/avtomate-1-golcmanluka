@@ -215,12 +215,3 @@ fun main(args: Array<String>) {
     val scanner = Scanner(Example, File(args[0]).inputStream())
     printTokens(scanner)
 }
-
-
-//Testing function
-/*
-fun main(args: Array<String>) {
-    val scanner = Scanner(Example, "33.2 + - test123 44.023".byteInputStream())
-    printTokens(scanner)
-}
-*/
